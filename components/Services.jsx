@@ -10,9 +10,9 @@ const Services = () => (
         grow fast. Engage your clients through compelling visuals that do most
         of the marketing for you.
       </p>
-      <div className="pl-8 max-w-max font-serif text-lg uppercase md:pl-0">
+      <div className="pl-8 max-w-max font-serif text-lg uppercase cursor-pointer md:pl-0 group">
         Learn more
-        <div className="relative -top-2 rounded-r-full rounded-l-full border-b-8 opacity-25 skew-x-6 border-[#FAD400]" />
+        <div className="relative -top-2 rounded-r-full rounded-l-full border-b-8 opacity-25 duration-200 skew-x-6 cursor-pointer group-hover:opacity-75 border-[#FAD400]" />
       </div>
     </article>
     <article className="bg-center bg-cover bg-services-stand-out-mobile md:bg-services-stand-out-desktop h-[50vh] md:h-auto md:row-start-2" />
@@ -25,28 +25,28 @@ const Services = () => (
         videographers, and copywriters, we'll build and extend your brand in
         digital places.
       </p>
-      <div className="pl-8 max-w-max font-serif text-lg uppercase md:pl-0">
+      <div className="pl-8 max-w-max font-serif text-lg uppercase cursor-pointer md:pl-0 group">
         Learn more
-        <div className="relative -top-2 rounded-r-full rounded-l-full border-b-8 opacity-25 skew-x-6 border-[#FE7867]" />
+        <div className="relative -top-2 rounded-r-full rounded-l-full border-b-8 opacity-25 duration-200 skew-x-6 group-hover:opacity-75 border-[#FE7867]" />
       </div>
     </article>
     <article className="flex flex-col-reverse h-screen bg-center bg-cover bg-services-graphic-design-mobile md:bg-services-grapic-design-desktop md:h-auto">
-      <section className="mb-16 text-center">
-        <h3 className="font-serif text-3xl text-brand-primary-cyan-1">
+      <section className="mb-16">
+        <h3 className="pl-8 md:pl-16 font-serif text-3xl text-brand-primary-cyan-1">
           Graphic Design
         </h3>
-        <p className="px-8 mt-8 font-medium md:leading-normal text-brand-primary-cyan-1">
+        <p className="px-8 md:px-16 mt-8 font-medium leading-relaxed text-brand-primary-cyan-1">
           Great design makes you memorable. We deliver artwork that underscores
           your brand message and captures potential clients' attention.
         </p>
       </section>
     </article>
     <article className="flex flex-col-reverse h-screen bg-center bg-cover bg-services-photography-mobile md:bg-services-photography-desktop md:h-auto">
-      <section className="mb-16 text-center">
-        <h3 className="font-serif text-3xl text-brand-primary-blue">
+      <section className="mb-16">
+        <h3 className="pl-8 font-serif text-3xl md:pl-16 text-brand-primary-blue">
           Photography
         </h3>
-        <p className="px-8 mt-8 font-medium md:leading-normal text-brand-primary-blue">
+        <p className="px-8 mt-8 font-medium leading-relaxed md:px-16 text-brand-primary-blue">
           Increase your credibility by getting the most stunning, high-quality
           photos that improve your business image.
         </p>
