@@ -1,5 +1,5 @@
 const Header = () => (
-  <header className="p-8 w-screen h-screen text-white bg-center bg-cover text-[18px] bg-header-hero-mobile md:bg-header-hero-desktop">
+  <header className="p-8 w-screen h-screen text-white bg-center bg-cover bg-header-mobile md:bg-header-desktop">
     <nav className="flex justify-between items-center">
       <img src="/images/logo.svg" alt="logo" />
       <ul className="flex items-center space-x-12">
